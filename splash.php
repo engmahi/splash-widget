@@ -1,3 +1,6 @@
+<?php 
+
+
 // Register a  custom widget
 class splash_widget extends WP_Widget {
 	public function __construct() {
@@ -18,3 +21,6 @@ function splash_widget() {
 	register_widget('splash_widget');
 }
 add_action('widgets_init', 'splash_widget');
+
+
+?>
